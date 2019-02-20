@@ -85,9 +85,9 @@
                       <thead>
                           <tr>
                               <th>S.No.</th>
-                              <th>Name</th>
-                              <th>Address</th>
-                              <th>Email</th>
+                              <th>Item Name</th>
+                              <th>Item Type</th>
+                              <th>Price</th>
                               <th width="20%"></th>
                           </tr>
                       </thead>
