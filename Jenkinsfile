@@ -1,8 +1,11 @@
 pipeline{
   
-    agent {
-    label "windows"
-  }
+  agent any 
+  
+  
+    //agent {
+    //label "windows"
+  //}
   tools {
     //echo 'Pipile script ::'
     maven 'maven3'
