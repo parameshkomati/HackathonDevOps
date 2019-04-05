@@ -12,9 +12,11 @@ pipeline{
    
     stage ('Initialize'){
       steps {
-        bat 
+         echo "Started::"
+        bat ...
         echo "PATH = %PATH%"
         echo "M2_HOME = %MAVEN_HOME%"
+        ...
       }
     }
     
