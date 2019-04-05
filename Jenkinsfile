@@ -2,7 +2,6 @@ pipeline{
   
   agent any 
   
-  
     //agent {
     //label "windows"
   //}
@@ -28,8 +27,7 @@ pipeline{
         bat 'mvn install'
         }
     }
-    
-    
+       
   }
 }
 
