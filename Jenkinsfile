@@ -4,6 +4,7 @@ pipeline{
     label "windows"
   }
   tools {
+    echo 'Pipile script ::'
     maven 'MAVEN_HOME'
     jdk 'JAVA_HOME'
   stages {
