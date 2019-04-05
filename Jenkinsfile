@@ -7,6 +7,7 @@ pipeline{
     //echo 'Pipile script ::'
     maven 'maven3'
     jdk 'java8'
+  }
   stages {
    
     stage ('Initialize'){
