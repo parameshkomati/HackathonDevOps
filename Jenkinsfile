@@ -4,16 +4,15 @@ pipeline{
     label "windows"
   }
   tools {
-    maven 'Maven 3.1.1'
-    jdk 'java8'
-  }
+    maven 'MAVEN_HOME'
+    jdk 'JAVA_HOME
   stages {
    
     stage ('Initialize'){
       steps {
         bat 
         echo "PATH = %PATH%"
-        echo "M2_HOME = %M2_HOME%"
+        echo "M2_HOME = %MAVEN_HOME%"
       }
     }
     
