@@ -17,7 +17,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import com.websystique.springmvc.model.User;
 import com.websystique.springmvc.service.UserService;
  
-@RestController
+@estController
 public class HelloWorldRestController {
  
     @Autowired
